@@ -1,0 +1,3 @@
+systemctl list-unit-files --type=service | grep enabled | awk '{print $1}'
+
+type de service = daemon

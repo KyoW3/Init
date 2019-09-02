@@ -1,0 +1,1 @@
+ifconfig en0 | grep "inet" | sed 1d | awk '{print $2}'

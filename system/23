@@ -1,0 +1,5 @@
+Pour Graphic Session:
+Entrer son <username> et son <password>.
+
+Pour SSH Session:
+ssh <username>@<hostname> et <password>.

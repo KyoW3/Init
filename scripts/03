@@ -1,0 +1,11 @@
+#! /bin/bash
+
+month=`ls -l $1 | awk '{print $6}'`
+day=`ls -l $1 | awk '{print $7}'`
+time=`ls -l $1 | awk '{print $8}'`
+
+if [ $1 ] ; then
+	echo "This file/directory was last updated in $month $day at $time"
+else
+	echo "usage: sh 03 <file or directory>"
+fi
